@@ -1,6 +1,6 @@
 # print("Hello World")
 import random
-value =input("Would you like to play the  python dice rolling game? (yes/no): ")
+value =input("Would you like to play the  python dice rolling game? (yes/no): ").lower()
 if value == "yes":
     while value == "yes":
         dice_val = [1,2,3,4,5,6]
